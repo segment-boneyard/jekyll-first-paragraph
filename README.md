@@ -9,7 +9,9 @@
 ```ruby
 gem install nokogiri
 ```
-  
+
+  And then in your Liquid-parsed file:
+
 ```liquid
 {{ post.content | first_paragraph }}
 ```
