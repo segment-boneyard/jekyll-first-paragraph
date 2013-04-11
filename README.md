@@ -6,13 +6,13 @@
   
   It requires the `'nokogiri'` gem, so:
   
-  ```ruby
-  gem install nokogiri
-  ```
+```ruby
+gem install nokogiri
+```
   
-  ```liquid
-  {{ post.content | first_paragraph }}
-  ```
+```liquid
+{{ post.content | first_paragraph }}
+```
 
 ## License
 
